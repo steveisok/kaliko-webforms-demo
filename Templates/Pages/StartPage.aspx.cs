@@ -14,6 +14,8 @@ namespace DemoSite.Templates.Pages {
         }
 
         private void PopulateNewsList() {
+            var pt = PageType.PageTypes;
+
             // Get the page type based on our NewsPageType deinition
             var pageType = PageType.GetPageType(typeof (NewsPageType));
             

@@ -5,11 +5,10 @@
   // To create a basic admin account uncomment the code below and change the password, then run the page.
   // This file should be deleted immediately after!!
   
-  Response.Write("Uncomment the code in this file to create a role and user, then run it again!");
+  //Response.Write("Uncomment the code in this file to create a role and user, then run it again!");
   
-  /*
   var userName = "admin";
-  var password = "";
+  var password = "A1234567";
   var roleName = "WebAdmin";
 
   var roleManager = new RoleManager<IdentityRole, Guid>(new RoleStore());
@@ -39,5 +38,4 @@
   userManager.AddToRole(user.Id, roleName);
 
   Response.Write("Role and user created!");
-  */
 %>
